@@ -1,13 +1,13 @@
 active: true
 bio:
-  Brian is a UI Designer for Automated Insights in Durham, NC.  He graduated from Virginia Tech with a degree in Industrial & Sytems Engineering.
+  Brian is a UI Designer for Automated Insights in Durham, NC.
+  He graduated from Virginia Tech with a degree in Industrial & Sytems Engineering.
 email: bwsewell@gmail.com
 github: bwsewell
 image:
   url: /img/brian_sewell.jpg
   title: Brian Sewell
   alt: Brian Sewell
-layout: profile
 name: Brian Sewell
 short:
   Brian is a really cool dude
