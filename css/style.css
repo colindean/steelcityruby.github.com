@@ -202,16 +202,28 @@ header h3 {
 .schedule thead th {
   border-bottom:3px solid #999;
   font-family: 'Helvetica Neue', serif;
-  font-size:12px;
+  font-size:15px;
+  text-transform:uppercase;
   font-weight:bold;
   letter-spacing:2px;
   color:#999;
   width:400px;
+  text-align:left;
 }
 
 .schedule tbody td {
   padding:10px;
   line-height:1.4em;
+  border-left:1px solid #DADADA;
+  border-right:1px solid #DADADA;
+}
+
+.schedule tbody td:first-child {
+  border-left:none;
+}
+
+.schedule tbody td:last-child {
+  border-right:none;
 }
 
 .schedule tbody tr.break td {
