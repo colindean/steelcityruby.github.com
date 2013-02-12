@@ -194,8 +194,33 @@ header h3 {
   display:block;
 }
 
-.speaker-bio {
+.schedule {
+  width:100%;
+  border-collapse:collapse;
+}
 
+.schedule thead th {
+  border-bottom:3px solid #999;
+  font-family: 'Helvetica Neue', serif;
+  font-size:12px;
+  font-weight:bold;
+  letter-spacing:2px;
+  color:#999;
+  width:400px;
+}
+
+.schedule tbody td {
+  padding:10px;
+  line-height:1.4em;
+}
+
+.schedule tbody tr.break td {
+  background:#EFEFEF;
+  color:#999;
+  text-align:center;
+  font-style:italic;
+  border-top:1px solid #DADADA;
+  border-bottom:1px solid #DADADA;
 }
 
 footer {
