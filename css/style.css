@@ -216,6 +216,7 @@ header h3 {
   line-height:1.4em;
   border-left:1px solid #DADADA;
   border-right:1px solid #DADADA;
+  border-bottom:1px solid #DADADA;
 }
 
 .schedule tbody td:first-child {
@@ -226,7 +227,12 @@ header h3 {
   border-right:none;
 }
 
-.schedule tbody tr.break td {
+.schedule tbody td.time {
+  text-align:left;
+  font-size:15px;
+}
+
+.schedule tbody tr.break td.event {
   background:#EFEFEF;
   color:#999;
   text-align:center;
