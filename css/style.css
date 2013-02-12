@@ -169,6 +169,35 @@ header h3 {
   border-bottom:4px solid #DACC57;
 }
 
+.speaker-avatar {
+  display:inline-block;
+  float:left;
+  height:100px;
+  width:100px;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-image:url('../img/marty.gif');
+  border-radius:100px;
+}
+
+.speaker h2 {
+  font-size:18px;
+  font-weight:bold;
+  font-family:'Lusitana', serif;
+  line-height:1.6em;
+  color:#111;
+}
+
+.speaker-handle {
+  color:#111;
+  text-decoration:underline;
+  display:block;
+}
+
+.speaker-bio {
+  
+}
+
 footer {
   width:100%;
   height:20px;
