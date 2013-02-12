@@ -182,7 +182,6 @@ header h3 {
 }
 
 .speaker-name {
-  font-size:18px;
   font-weight:bold;
   font-family:'Lusitana', serif;
   line-height:1.6em;
@@ -191,7 +190,6 @@ header h3 {
 }
 
 .speaker-handle {
-  font-size:11px;
   text-decoration:underline;
   display:block;
 }
