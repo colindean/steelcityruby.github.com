@@ -169,6 +169,10 @@ header h3 {
   border-bottom:4px solid #DACC57;
 }
 
+.speaker {
+  margin-bottom:40px;
+}
+
 .speaker-avatar {
   display:inline-block;
   float:left;
