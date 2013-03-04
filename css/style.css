@@ -69,6 +69,7 @@ header h3 {
   display:block;
   overflow:hidden;
   border-bottom:1px solid #DACC57;
+  z-index: 100;
 }
 
 .nav {
@@ -252,6 +253,10 @@ header h3 {
 .party {
   background-color: #8B9FB6;
   color: white;
+  text-align: center;
+}
+
+#signup-text {
   text-align: center;
 }
 
