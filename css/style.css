@@ -256,6 +256,16 @@ header h3 {
   text-align: center;
 }
 
+.sponsorship-text p {
+  font-size:24px;
+  line-height:1.6em;
+}
+
+.sponsorship-text li {
+  font-size:24px;
+  line-height:1.6em;
+}
+
 #signup-text {
   text-align: center;
 }
