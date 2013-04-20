@@ -264,6 +264,14 @@ header h3 {
   text-align: center;
 }
 
+#pittsburgh li {
+  margin-bottom: 8%;
+}
+
+#pittsburgh li a {
+  text-decoration: none;
+}
+
 .sponsorship-text p {
   font-family: 'Georgia', 'Times', serif;
   font-size: 16px;
