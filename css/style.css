@@ -249,13 +249,19 @@ header h3 {
   font-size:15px;
 }
 
-.schedule tbody tr.break td.event {
+.schedule tbody tr.break td.event, td.break {
   background:#EFEFEF;
   color:#999;
   text-align:center;
   font-style:italic;
   border-top:1px solid #DADADA;
   border-bottom:1px solid #DADADA;
+}
+
+.talk {
+  font-style:italic;
+  font-size:15px;
+  line-height:2em;
 }
 
 .party {
