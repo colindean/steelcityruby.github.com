@@ -3,434 +3,451 @@ layout: master
 title: Steel City Ruby Conference 2013
 ---
 <section class="content">
-  <div class="container">
-    <div class="row">
-      <div class="span6">
-        <h2>Jim Weirich</h2>
-        <p>
-        Jim Weirich first learned about computers when his college adviser
-        suggested he take a computer science course: "It will be useful,
-        and you might enjoy it." With those prophetic words, Jim has been
-        developing now for over 25 years, working with everything from
-        crunching rocket launch data on supercomputers to wiring up servos
-        and LEDs on micro-controllers.  Currently he loves working in Ruby
-        and Rails as the Chief Scientist at Neo, but you can also find him
-        strumming on his ukulele as time permits.
-        </p>
+  <div class="container full-schedule">
+
+    <div id="friday" class="day">
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Carina C. Zona</h2>
+          <p>
+          Carina C. Zona is a web developer and consultant.  She has taught for
+          Girl Develop It, Black Girls Code, RailsBridge, PyLadies, and
+          RailsGirls. She served on RailsBridge core team and Women Who Code core
+          team. She is also a certified sex educator. In her spare time, she
+          engineers baked goods.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Handcrafting Community</h3>
+          <p>
+          Community-building can seem like a herculean effort that must be
+          coordinated among many.  But it doesn't have to be.  One is plenty.
+          </p>
+
+          <p>
+          How can we handcraft a fulfilling code career?  How can we support
+          peers in developing theirs, whether newcomer or artisan?  How can we
+          contribute, without having to be expert?  How do we develop social
+          capital among community members, and channel those investments into
+          people who are just entering? How will we craft a thriving community,
+          using only simple tools & scarce local resources?
+          </p>
+
+          <p>
+          We'll examine the history of major successes -- in Ruby community,
+          Python, and well beyond -- and extract lessons to apply generally. It's
+          a story that weaves in personal narratives of rising into that, both
+          well and clumsily.  It's about transforming minor ambitions & frequent
+          iterations into a scope of change that looks amazing. By making choices
+          to do small things well and thoughtfully, rather than with concern for
+          how they scale.
+          </p>
+        </div>
       </div>
-      <div class="span6">
-        <h3>Friendly Flying Robots with Ruby</h3>
-        <p>We use Ruby in our Web applications. We use Ruby in our scripting. We
-        even use Ruby in our mobile phone applications these days. But here's
-        something new: Using Ruby to control flying robots.</p>
 
-        <p>The Parrot AR Drone is a consumer grade quadcopter designed to be
-        controlled from your smartphone over a WiFi signal. However, the
-        network protocols for controlling the drone are open and published in
-        the AR Drone SDK, so what is more natural than using our favorite
-        programming language to communicate and control these fun devices.</p>
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Bryan Helmkamp</h2>
+          <p>
+          Bryan is the founder of Code Climate, an automated code
+          review tool for Ruby apps, and the lead organizer of the Gotham Ruby
+          Conference in NYC. For the last seven years, he's been active in the
+          Ruby community as an acclaimed speaker, author and open source
+          contributor. In 2009, he received a Ruby Hero Award for his efforts.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Refactoring Fat Models with Patterns</h3>
+          <p>
+          “Fat models” cause maintenance issues in large apps. Only incrementally
+          better than cluttering controllers with domain logic, they usually
+          represent a failure to apply the Single Responsibility Principle (SRP).
+          “Anything related to what a user does” is not a single responsibility.
+          </p>
 
-        <p>This talk will cover the nature of the AR Drone protocol and the
-        details of getting a Ruby program to communicate to and control the
-        drone. We will talk about the challenges of remote controlling flying
-        objects. And if all goes well, we will actually demonstrate all of the
-        above.</p>
+          <p>
+          Early on, SRP is easier to apply. ActiveRecord classes handle
+          persistence, associations and not much else. But bit-by-bit, they grow.
+          Objects that are inherently responsible for persistence become the de
+          facto owner of all business logic as well. And a year or two later you
+          have a User class with over 500 lines of code, and hundreds of methods
+          in it’s public interface. Callback hell ensues.
+          </p>
 
-        <p>After all, admit it.  When robots finally take over the world,
-        wouldn't you prefer that they are programming in a friendly
-        programming language like Ruby?</p>
+          <p>
+          This talk will explore patterns to smoothly deal with increasing
+          intrinsic complexity (read: features!) of your application. Transform
+          fat models into a coordinated set of small, encapsulated objects
+          working together in a veritable symphony.
+          </p>
+        </div>
       </div>
-    </div>
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Greg Baugues</h2>
+          <p>
+          I started programming on a TRS-80 when I was seven years old, and have
+          spent most of my professional career straddling the line between
+          programming and client facing work. For the last six years I have
+          worked at Table XI, where I currently serve as Director of Client
+          Services. I live in Chicago with my beautiful wife, Rachel.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Developers and Depression</h3>
+          <p>
+          I am a developer, and I have Type II Bipolar and ADHD.
+          </p>
 
-    <div class="row">
-      <div class="span6">
-        <h2>Angela Harms</h2>
-        <p>
-        Angela Harms is an agile developer, coach, facilitator, and instigator
-        at LeanDog (on a boat off the coast of Cleveland). She loves beautiful
-        code that emerges from collaboration, and learning new ways to make it
-        work. When she’s not pairing on tests and the code they inspire, you
-        can find her at conferences speaking about what she’s learned (so far),
-        or discussing the intersection of software and love in open space. She
-        lives in a community of nerds called MakerHouse in Cleveland’s historic
-        Ohio City.
-        </p>
+          <p>
+          Over the last six months I've been writing and speaking about mental
+          illness in the developer community, ever since we lost one of our
+          coworkers, Caleb Cornman, to untreated mental illness. There's a lot of
+          shame around being sick, and mental illness is treated much differently
+          than physical illness, which causes people who are suffering to avoid
+          finding help.
+          </p>
+
+          <p>
+          In this talk I will share the story of my struggles with depression,
+          and getting diagnosed with ADHD and Bipolar, why it's especially
+          relevant for developers, and how we can help those around us who are
+          suffering from mental illness.
+          </p>
+        </div>
       </div>
-      <div class="span6">
-        <h3>Moving From Cooperation to Collaboration</h3>
-        <p>
-        </p>
+  
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Lightning Talks</h2>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="span6">
-        <h2>Avdi Grimm</h2>
-        <p>
-        See talk description!
-        </p>
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Angela Harms</h2>
+          <p>
+          Angela Harms is an agile developer, coach, facilitator, and instigator
+          at LeanDog (on a boat off the coast of Cleveland). She loves beautiful
+          code that emerges from collaboration, and learning new ways to make it
+          work. When she’s not pairing on tests and the code they inspire, you
+          can find her at conferences speaking about what she’s learned (so far),
+          or discussing the intersection of software and love in open space. She
+          lives in a community of nerds called MakerHouse in Cleveland’s historic
+          Ohio City.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Moving From Cooperation to Collaboration</h3>
+          <p>
+          </p>
+        </div>
       </div>
-      <div class="span6">
-        <h3>Pairing is Caring</h3>
-        <p>
-        In the second half of 2012 I "quit my job" as a traditional Ruby/Rails
-        consultant in order to become a consulting pair programmer. After
-        spending hundreds of hours pairing with dozens of developers from
-        around the world, I'd like to share some of my observations. We'll
-        talk about the mechanics of ad-hoc remote pair-programming, but more
-        importantly about why I think widespread pairing is important to
-        maintaining the health of the Ruby community. Whether you work solo or
-        you pair regularly, you should leave this talk empowered and excited
-        to broaden your pair-programming horizons.
-        </p>
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Ashish Dixit</h2>
+          <p>
+          Ashish is a developer eagerly plotting his path along the <a
+          href="http://ofps.oreilly.com/titles/9780596518387/walking_the_long_road.html">lifelong
+          journey</a> of becoming a better problem solver. His current focus is to become a
+          full-stack developer who can solve interesting problems through technology.
+          </p>
+
+          <p>
+          Though he knows his journey has just begun, Ashish is a key member of the
+          <a href="https://engineering.groupon.com/">Groupon Engineering</a> team where he
+          collaborates with talented individuals to build internal tools. While he is not
+          coding & learning from awesome people around him, Ashish likes to dabble in
+          cooking, occasional running & bike rides when the weather is nice, and
+          excessive tweeting about any delays involving trains, planes and automobiles.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Channel your inner Jason Bay: How to be productive on a new Team</h3>
+          <p>
+          You've landed a great opportunity to work with some of the smartest
+          people in the industry. You can barely contain the enthusiasm to learn and
+          contribute to the team. You may not have all the required technical skills on
+          day 1, but you are confident that you will get there with the support from your
+          team. It's exciting & stressful at the same time because you need to start
+          contributing right away.
+          </p>
+
+          <p>
+          A lot of developers find themselves in these shoes, just as I did in
+          not-too-distant past. This talk offers specific strategies developers of all
+          skill levels can use to start making an immediate impact. These strategies have
+          enabled me to contribute quickly on a new team and I want to share it with you
+          so that they can help you on each new project or team you work with. I also
+          want to share specific gotchas and share some tips on how to adapt and continue
+          to improve once you have become productive member of the team.
+          </p>
+
+          <p>The talk will primarily focus on:</p>
+
+          <ul>
+            <li>Techniques for quickly learning a new codebase</li>
+            <li>Finding ways to have a significant impact quickly</li>
+            <li>Ways in which you can continue to be more awesome</li>
+          </ul>
+        </div>
       </div>
-    </div>
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Jim Weirich</h2>
+          <p>
+          Jim Weirich first learned about computers when his college adviser
+          suggested he take a computer science course: "It will be useful,
+          and you might enjoy it." With those prophetic words, Jim has been
+          developing now for over 25 years, working with everything from
+          crunching rocket launch data on supercomputers to wiring up servos
+          and LEDs on micro-controllers.  Currently he loves working in Ruby
+          and Rails as the Chief Scientist at Neo, but you can also find him
+          strumming on his ukulele as time permits.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Friendly Flying Robots with Ruby</h3>
+          <p>We use Ruby in our Web applications. We use Ruby in our scripting. We
+          even use Ruby in our mobile phone applications these days. But here's
+          something new: Using Ruby to control flying robots.</p>
 
-    <div class="row">
-      <div class="span6">
-        <h2>Konstantin Haase</h2>
-        <p>
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Architecting the Chaos</h3>
-        <p>
-        Basically a talk about the development of the Travis CI architecture,
-        how an Open Source project without a clear team structure and initially
-        no company behind it could become the build system for more than 36k
-        projects without collapsing.
-        </p>
-      </div>
-    </div>
+          <p>The Parrot AR Drone is a consumer grade quadcopter designed to be
+          controlled from your smartphone over a WiFi signal. However, the
+          network protocols for controlling the drone are open and published in
+          the AR Drone SDK, so what is more natural than using our favorite
+          programming language to communicate and control these fun devices.</p>
 
-    <div class="row">
-      <div class="span6">
-        <h2>John Downey</h2>
-        <p>
-        John Downey is a developer working at Braintree. Braintree helps
-        businesses accept credit card payments online with great
-        development tools and first class support. There he has worked on
-        their highly available infrastructure and integrations into the
-        banking system. In his free time he contributes to open source
-        projects and mentors high school students in the FIRST Robotics
-        Competition.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>DevOps for the Rubyist Soul</h3>
-        <p>
-        Ruby developers have many great options for simply hosting their
-        web applications. But what happens when your product outgrows
-        Heroku? Managing your own servers can be an intimidating task for
-        the average developer. This session will cover the lessons we've
-        learned at Braintree from building and maintaining our
-        infrastructure. It will cover how we leverage Ruby to automate and
-        control all of our environments. Some specific topics we'll cover:
-        </p>
+          <p>This talk will cover the nature of the AR Drone protocol and the
+          details of getting a Ruby program to communicate to and control the
+          drone. We will talk about the challenges of remote controlling flying
+          objects. And if all goes well, we will actually demonstrate all of the
+          above.</p>
 
-
-        <ul>
-          <li>Orchestrating servers with capistrano</li>
-          <li>Using puppet for configuration management</li>
-          <li>Our cap and puppet workflow using git</li>
-          <li>How vagrant can provide a sane test environment</li>
-          <li>Some pitfalls you should avoid"</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Stephen Ball</h2>
-        <p>
-        I've been an avid programmer since I was a kid typing BASIC listings into our
-        Atari 800 at home. I'm now a senior Rails Developer for PhishMe and love to
-        write and hack and want to add "talk" to that list.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Deliberate Git</h3>
-        <p>
-        Git. It seems that everyone is using it and that everyone is using it in
-        different ways. Always rebase, never rebase, always fast-forward, always
-        no-fast forward, rewrite history, never rewrite history, always squash,
-        git-flow, github-flow, commit driven development, etc.
-        </p>
-
-        <p>
-        Like a good Unix command, git doesn't care how you use it. It enables a wide
-        variety of repository workflows. Used effectively git can spin the tale of your
-        codebase: where it's been, where it's going, the problems encountered along the
-        way. Used ineffectively your git history can become a dense mess of merges
-        ballooning out into a multilane spaghetti highway that's impossible for a
-        newcomer to navigate.
-        </p>
-
-        <p>
-        My talk will describe how to safely, sanely, and deliberately use git
-        to write the story of your code using three simple rules:
-        </p>
-
-        <p>
-        1. Use present tense commits. Rather than describe what has happened, tell what
-        the commit actively does. This is not just a semantic change, but helps to
-        change the way you think about the commit. In the past tense it makes little
-        conceptual sense to edit commits. When commits are written in the present,
-        active tense then it is an easy mental jump to being able to rewrite, reorder,
-        or remove commits.
-        </p>
-
-        <p>
-        2. Tell your development story. You don't need to preserve every false path
-        like a dashed line trail in the Family Circus in your master branch. If it's
-        needed or useful, you can safely store the development history in the branch
-        itself and only tell the actual story in master.
-        </p>
-
-        <p>
-        3. Don't tell other developer's stories. Use git to work with the commits made
-        by other developers, not to rewrite them after the fact.
-        </p>
-
-        <p>
-        The techniques I'll share include:
-        </p>
-
-        <ul>
-          <li>how to rebase against your own branch to fixup, change, and otherwise edit your commits</li>
-          <li>how to rebase against upstream commits to clarify your own commits</li>
-          <li>how to recognize when your repo history is about to get confusing by examining the incoming and outgoing commits between branches</li>
-          <li>using git-stash effectively to save off pieces of work</li>
-          <li>using private local branches to isolate your development from public changes until you are ready</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Leon Gersing</h2>
-        <p>
-        i tend binary zen gardens with Neo.com in Columbus, OH.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Keep Software Weird</h3>
-        <p>
-        How much code coverage does it take it ship a minimal viable product?
-        How many Scrum Certifications does it take to make your team agile? How many
-        languages learned make a journeyman a master? Currently, in software, there is
-        an expressed desire to be taken seriously as craftspeople. To this end, we've
-        introduced process, metrics and quantifiable boundaries as goal posts to hold
-        up to those who may not understand what is involved in shipping quality
-        software. As this practice becomes normal, developers are faced with an
-        ever-expanding landscape of techniques, practices and pressure from thought
-        leaders to take extra course work or certifications to validate the assertion
-        that you are, in fact, a software developer. While some may see this as a
-        necessary evolution of our field, I see it as a albatross round the neck of the
-        creative developer looking to explore the depths of what is possible. While the
-        safety of a well worn path may provide solace to the uninitiated, I find
-        dogmatic implementation oppressive and exclusionary to those interested in
-        exploring alternative approaches to solving problems with technology. Join me
-        in an exploration of what I believe makes us unique as a subculture in this
-        business world; examples of how we came to be by challenging the established
-        idioms of the past in order to move forward into something exciting and new. To
-        be our best we must be willing to dive into the unknown, to loose the binds of
-        convention and explore the vast expanse of the unfamiliar. We must dare to be
-        wrong, to be new, to be foolish, to be amazing and keep software weird.
-        </p>
+          <p>After all, admit it.  When robots finally take over the world,
+          wouldn't you prefer that they are programming in a friendly
+          programming language like Ruby?</p>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="span6">
-        <h2>Ashish Dixit</h2>
-        <p>
-        Ashish is a developer eagerly plotting his path along the <a
-        href="http://ofps.oreilly.com/titles/9780596518387/walking_the_long_road.html">lifelong
-        journey</a> of becoming a better problem solver. His current focus is to become a
-        full-stack developer who can solve interesting problems through technology.
-        </p>
-
-        <p>
-        Though he knows his journey has just begun, Ashish is a key member of the
-        <a href="https://engineering.groupon.com/">Groupon Engineering</a> team where he
-        collaborates with talented individuals to build internal tools. While he is not
-        coding & learning from awesome people around him, Ashish likes to dabble in
-        cooking, occasional running & bike rides when the weather is nice, and
-        excessive tweeting about any delays involving trains, planes and automobiles.
-        </p>
+    <div id="friday" class="day">
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Konstantin Haase</h2>
+          <p>
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Architecting the Chaos</h3>
+          <p>
+          Basically a talk about the development of the Travis CI architecture,
+          how an Open Source project without a clear team structure and initially
+          no company behind it could become the build system for more than 36k
+          projects without collapsing.
+          </p>
+        </div>
       </div>
-      <div class="span6">
-        <h3>Channel your inner Jason Bay: How to be productive on a new Team</h3>
-        <p>
-        You've landed a great opportunity to work with some of the smartest
-        people in the industry. You can barely contain the enthusiasm to learn and
-        contribute to the team. You may not have all the required technical skills on
-        day 1, but you are confident that you will get there with the support from your
-        team. It's exciting & stressful at the same time because you need to start
-        contributing right away.
-        </p>
 
-        <p>
-        A lot of developers find themselves in these shoes, just as I did in
-        not-too-distant past. This talk offers specific strategies developers of all
-        skill levels can use to start making an immediate impact. These strategies have
-        enabled me to contribute quickly on a new team and I want to share it with you
-        so that they can help you on each new project or team you work with. I also
-        want to share specific gotchas and share some tips on how to adapt and continue
-        to improve once you have become productive member of the team.
-        </p>
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Stephen Ball</h2>
+          <p>
+          I've been an avid programmer since I was a kid typing BASIC listings into our
+          Atari 800 at home. I'm now a senior Rails Developer for PhishMe and love to
+          write and hack and want to add "talk" to that list.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Deliberate Git</h3>
+          <p>
+          Git. It seems that everyone is using it and that everyone is using it in
+          different ways. Always rebase, never rebase, always fast-forward, always
+          no-fast forward, rewrite history, never rewrite history, always squash,
+          git-flow, github-flow, commit driven development, etc.
+          </p>
 
-        <p>The talk will primarily focus on:</p>
+          <p>
+          Like a good Unix command, git doesn't care how you use it. It enables a wide
+          variety of repository workflows. Used effectively git can spin the tale of your
+          codebase: where it's been, where it's going, the problems encountered along the
+          way. Used ineffectively your git history can become a dense mess of merges
+          ballooning out into a multilane spaghetti highway that's impossible for a
+          newcomer to navigate.
+          </p>
 
-        <ul>
-          <li>Techniques for quickly learning a new codebase</li>
-          <li>Finding ways to have a significant impact quickly</li>
-          <li>Ways in which you can continue to be more awesome</li>
-        </ul>
+          <p>
+          My talk will describe how to safely, sanely, and deliberately use git
+          to write the story of your code using three simple rules:
+          </p>
+
+          <p>
+          1. Use present tense commits. Rather than describe what has happened, tell what
+          the commit actively does. This is not just a semantic change, but helps to
+          change the way you think about the commit. In the past tense it makes little
+          conceptual sense to edit commits. When commits are written in the present,
+          active tense then it is an easy mental jump to being able to rewrite, reorder,
+          or remove commits.
+          </p>
+
+          <p>
+          2. Tell your development story. You don't need to preserve every false path
+          like a dashed line trail in the Family Circus in your master branch. If it's
+          needed or useful, you can safely store the development history in the branch
+          itself and only tell the actual story in master.
+          </p>
+
+          <p>
+          3. Don't tell other developer's stories. Use git to work with the commits made
+          by other developers, not to rewrite them after the fact.
+          </p>
+
+          <p>
+          The techniques I'll share include:
+          </p>
+
+          <ul>
+            <li>how to rebase against your own branch to fixup, change, and otherwise edit your commits</li>
+            <li>how to rebase against upstream commits to clarify your own commits</li>
+            <li>how to recognize when your repo history is about to get confusing by examining the incoming and outgoing commits between branches</li>
+            <li>using git-stash effectively to save off pieces of work</li>
+            <li>using private local branches to isolate your development from public changes until you are ready</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Lightning Talks</h2>
+        </div>
+      </div>
+
+
+
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Avdi Grimm</h2>
+          <p>
+          See talk description!
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Pairing is Caring</h3>
+          <p>
+          In the second half of 2012 I "quit my job" as a traditional Ruby/Rails
+          consultant in order to become a consulting pair programmer. After
+          spending hundreds of hours pairing with dozens of developers from
+          around the world, I'd like to share some of my observations. We'll
+          talk about the mechanics of ad-hoc remote pair-programming, but more
+          importantly about why I think widespread pairing is important to
+          maintaining the health of the Ruby community. Whether you work solo or
+          you pair regularly, you should leave this talk empowered and excited
+          to broaden your pair-programming horizons.
+          </p>
+        </div>
+      </div>
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Kerri Miller</h2>
+          <p>
+          Kerri Miller is a Sr Software Developer and Team Lead based in the
+          Pacific Northwest. She has worked at enterprise companies,
+          international ad agencies, boutique consultancies, start-ups, and every
+          place in between. She mentors and teaches students and interns through
+          RailsBridge and other programs. Having an insatiable curiosity, she has
+          worked as a lighting designer, marionette puppeteer, sous chef, and
+          professional poker player, and enjoys hiking, collecting Vespas, and
+          working with glass.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>You Can't Miss What You Can't Measure</h3>
+          <p>
+          Adrift at sea, a GPS device will report your precise latitude and
+          longitude, but if you don't know what those numbers mean, you're just
+          as lost as before. Similarly, there are many tools that offer a wide
+          variety of metrics about your code, but other than making you feel
+          good, what are you supposed to do with this knowledge? Let's answer
+          that question by exploring what the numbers mean, how static code
+          analysis can add value to your development process, and how it can help
+          us chart the unexplored seas of legacy code.
+          </p>
+        </div>
+      </div>
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>John Downey</h2>
+          <p>
+          John Downey is a developer working at Braintree. Braintree helps
+          businesses accept credit card payments online with great
+          development tools and first class support. There he has worked on
+          their highly available infrastructure and integrations into the
+          banking system. In his free time he contributes to open source
+          projects and mentors high school students in the FIRST Robotics
+          Competition.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>DevOps for the Rubyist Soul</h3>
+          <p>
+          Ruby developers have many great options for simply hosting their
+          web applications. But what happens when your product outgrows
+          Heroku? Managing your own servers can be an intimidating task for
+          the average developer. This session will cover the lessons we've
+          learned at Braintree from building and maintaining our
+          infrastructure. It will cover how we leverage Ruby to automate and
+          control all of our environments. Some specific topics we'll cover:
+          </p>
+
+
+          <ul>
+            <li>Orchestrating servers with capistrano</li>
+            <li>Using puppet for configuration management</li>
+            <li>Our cap and puppet workflow using git</li>
+            <li>How vagrant can provide a sane test environment</li>
+            <li>Some pitfalls you should avoid"</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row session">
+        <div class="span6 speaker">
+          <h2>Leon Gersing</h2>
+          <p>
+          i tend binary zen gardens with Neo.com in Columbus, OH.
+          </p>
+        </div>
+        <div class="span6 talk">
+          <h3>Keep Software Weird</h3>
+          <p>
+          How much code coverage does it take it ship a minimal viable product?
+          How many Scrum Certifications does it take to make your team agile? How many
+          languages learned make a journeyman a master? Currently, in software, there is
+          an expressed desire to be taken seriously as craftspeople. To this end, we've
+          introduced process, metrics and quantifiable boundaries as goal posts to hold
+          up to those who may not understand what is involved in shipping quality
+          software. As this practice becomes normal, developers are faced with an
+          ever-expanding landscape of techniques, practices and pressure from thought
+          leaders to take extra course work or certifications to validate the assertion
+          that you are, in fact, a software developer. While some may see this as a
+          necessary evolution of our field, I see it as a albatross round the neck of the
+          creative developer looking to explore the depths of what is possible. While the
+          safety of a well worn path may provide solace to the uninitiated, I find
+          dogmatic implementation oppressive and exclusionary to those interested in
+          exploring alternative approaches to solving problems with technology. Join me
+          in an exploration of what I believe makes us unique as a subculture in this
+          business world; examples of how we came to be by challenging the established
+          idioms of the past in order to move forward into something exciting and new. To
+          be our best we must be willing to dive into the unknown, to loose the binds of
+          convention and explore the vast expanse of the unfamiliar. We must dare to be
+          wrong, to be new, to be foolish, to be amazing and keep software weird.
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Kerri Miller</h2>
-        <p>
-        Kerri Miller is a Sr Software Developer and Team Lead based in the
-        Pacific Northwest. She has worked at enterprise companies,
-        international ad agencies, boutique consultancies, start-ups, and every
-        place in between. She mentors and teaches students and interns through
-        RailsBridge and other programs. Having an insatiable curiosity, she has
-        worked as a lighting designer, marionette puppeteer, sous chef, and
-        professional poker player, and enjoys hiking, collecting Vespas, and
-        working with glass.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>You Can't Miss What You Can't Measure</h3>
-        <p>
-        Adrift at sea, a GPS device will report your precise latitude and
-        longitude, but if you don't know what those numbers mean, you're just
-        as lost as before. Similarly, there are many tools that offer a wide
-        variety of metrics about your code, but other than making you feel
-        good, what are you supposed to do with this knowledge? Let's answer
-        that question by exploring what the numbers mean, how static code
-        analysis can add value to your development process, and how it can help
-        us chart the unexplored seas of legacy code.
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Greg Baugues</h2>
-        <p>
-        I started programming on a TRS-80 when I was seven years old, and have
-        spent most of my professional career straddling the line between
-        programming and client facing work. For the last six years I have
-        worked at Table XI, where I currently serve as Director of Client
-        Services. I live in Chicago with my beautiful wife, Rachel.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Developers and Depression</h3>
-        <p>
-        I am a developer, and I have Type II Bipolar and ADHD.
-        </p>
-
-        <p>
-        Over the last six months I've been writing and speaking about mental
-        illness in the developer community, ever since we lost one of our
-        coworkers, Caleb Cornman, to untreated mental illness. There's a lot of
-        shame around being sick, and mental illness is treated much differently
-        than physical illness, which causes people who are suffering to avoid
-        finding help.
-        </p>
-
-        <p>
-        In this talk I will share the story of my struggles with depression,
-        and getting diagnosed with ADHD and Bipolar, why it's especially
-        relevant for developers, and how we can help those around us who are
-        suffering from mental illness.
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Bryan Helmkamp</h2>
-        <p>
-        Bryan is the founder of Code Climate, an automated code
-        review tool for Ruby apps, and the lead organizer of the Gotham Ruby
-        Conference in NYC. For the last seven years, he's been active in the
-        Ruby community as an acclaimed speaker, author and open source
-        contributor. In 2009, he received a Ruby Hero Award for his efforts.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Refactoring Fat Models with Patterns</h3>
-        <p>
-        “Fat models” cause maintenance issues in large apps. Only incrementally
-        better than cluttering controllers with domain logic, they usually
-        represent a failure to apply the Single Responsibility Principle (SRP).
-        “Anything related to what a user does” is not a single responsibility.
-        </p>
-
-        <p>
-        Early on, SRP is easier to apply. ActiveRecord classes handle
-        persistence, associations and not much else. But bit-by-bit, they grow.
-        Objects that are inherently responsible for persistence become the de
-        facto owner of all business logic as well. And a year or two later you
-        have a User class with over 500 lines of code, and hundreds of methods
-        in it’s public interface. Callback hell ensues.
-        </p>
-
-        <p>
-        This talk will explore patterns to smoothly deal with increasing
-        intrinsic complexity (read: features!) of your application. Transform
-        fat models into a coordinated set of small, encapsulated objects
-        working together in a veritable symphony.
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="span6">
-        <h2>Carina C. Zona</h2>
-        <p>
-        Carina C. Zona is a web developer and consultant.  She has taught for
-        Girl Develop It, Black Girls Code, RailsBridge, PyLadies, and
-        RailsGirls. She served on RailsBridge core team and Women Who Code core
-        team. She is also a certified sex educator. In her spare time, she
-        engineers baked goods.
-        </p>
-      </div>
-      <div class="span6">
-        <h3>Handcrafting Community</h3>
-        <p>
-        Community-building can seem like a herculean effort that must be
-        coordinated among many.  But it doesn't have to be.  One is plenty.
-        </p>
-
-        <p>
-        How can we handcraft a fulfilling code career?  How can we support
-        peers in developing theirs, whether newcomer or artisan?  How can we
-        contribute, without having to be expert?  How do we develop social
-        capital among community members, and channel those investments into
-        people who are just entering? How will we craft a thriving community,
-        using only simple tools & scarce local resources?
-        </p>
-
-        <p>
-        We'll examine the history of major successes -- in Ruby community,
-        Python, and well beyond -- and extract lessons to apply generally. It's
-        a story that weaves in personal narratives of rising into that, both
-        well and clumsily.  It's about transforming minor ambitions & frequent
-        iterations into a scope of change that looks amazing. By making choices
-        to do small things well and thoughtfully, rather than with concern for
-        how they scale.
-        </p>
-      </div>
-    </div>
-
   </div>
 </section>
