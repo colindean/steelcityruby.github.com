@@ -178,6 +178,10 @@ header h3 {
   border-bottom:4px solid #DACC57;
 }
 
+.action-buttons li .warn {
+  background: #a00;
+}
+
 .speaker {
   margin-bottom:40px;
 }
