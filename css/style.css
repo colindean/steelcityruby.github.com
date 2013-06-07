@@ -302,6 +302,14 @@ header h3 {
   text-align: center;
 }
 
+.full-schedule .session:nth-child(2n) {
+  background-color: #eee;
+}
+
+.full-schedule .day {
+  margin-bottom: 100px;
+}
+
 footer {
   width:100%;
   height:20px;
