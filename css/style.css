@@ -178,6 +178,10 @@ header h3 {
   border-bottom:4px solid #DACC57;
 }
 
+.action-buttons li .warn {
+  background: #a00;
+}
+
 .speaker {
   margin-bottom:40px;
 }
@@ -296,6 +300,14 @@ header h3 {
 
 #signup-text {
   text-align: center;
+}
+
+.full-schedule .session:nth-child(2n) {
+  background-color: #eee;
+}
+
+.full-schedule .day {
+  margin-bottom: 100px;
 }
 
 footer {
