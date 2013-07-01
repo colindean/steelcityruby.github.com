@@ -310,6 +310,14 @@ header h3 {
   margin-bottom: 100px;
 }
 
+.sponsorship-plug img {
+  height: 100px;
+}
+
+.sponsorship-plug {
+  margin: 0 0 5px 0;
+}
+
 footer {
   width:100%;
   height:20px;
